@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router";
-
+import styles from './Navbar.module.css';
 
 
 
 const Navbar = () => {
     return (
-        <nav>
-
-            <ul>
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>Car Shop</div>
+            <ul className={styles.navLinks}>
                 <li><Link to="/">Home</Link></li>
 
 

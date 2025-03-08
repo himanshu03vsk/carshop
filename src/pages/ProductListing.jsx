@@ -5,15 +5,17 @@ import React from "react";
 
 
 
+
+
 const ProductListing = () => {
-    return (
+    // const navigate = useNavigate();   //it is a hook, think of it as a routers that we can use to route it to different routes
 
-        <div>
-            <h2>This the ProductListing page</h2>
-        </div>
-    );
+    React.useEffect(() => {
+        window.location.href = "/assets/static/ProductListing.html";
+    }, []);
+
+    return null;
 };
-
 
 export default ProductListing;
 

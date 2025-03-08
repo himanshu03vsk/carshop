@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    /* font-size: large; */
+    /* flex-wrap:wrap; */
+    /* overflow: hidden; */
+    max-height: 10vh;
+}
+
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    flex: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.navLinks li {
+    margin: 15px 15px;
+}
+
+.navLinks a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navLinks a:hover {
+    color: #858989; /* change the color according to requirement */
+}
+

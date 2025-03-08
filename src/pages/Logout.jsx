@@ -5,15 +5,17 @@ import React from "react";
 
 
 
+
+
 const Logout = () => {
-    return (
+    // const navigate = useNavigate();   //it is a hook, think of it as a routers that we can use to route it to different routes
 
-        <div>
-            <h2>This the Logout page</h2>
-        </div>
-    );
+    React.useEffect(() => {
+        window.location.href = "/assets/static/Logout.html";
+    }, []);
+
+    return null;
 };
-
 
 export default Logout;
 
