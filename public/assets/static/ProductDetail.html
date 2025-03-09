@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productdetail.css">
 
     <title>Vite + React</title>
   </head>
@@ -30,6 +31,55 @@
           </ul>
         </div>
       </nav>
+
+
+      <div class="prod-detail-container">
+
+
+        <div class="prod-sm-image-container">
+
+          <!-- container that has small thumbs of prod img -->
+           <img src="/assets/images/img1.jpg" alt="" class="imgs">
+           <img src="/assets/images/img2.jpg" alt="" class="imgs">
+           <img src="/assets/images/img4.webp" alt="" class="imgs">
+           <!-- image here -->
+
+        </div> 
+
+        <div class="prod-bg-image-container">
+          <img src="/assets/images/img3.webp" alt="" id="big-img">
+
+        </div>   <!-- container that has big image of prod img -->
+
+        <div class="prod-desc-act-container"> <!-- container that has desc and buy/cart actions of prod  -->
+
+          <div class="prod-desc-container"> <!-- container that has desc of prod -->
+            <div class="desc prod-title"><p class="desctxt">Ford F-150 Side Mirror</p></div>
+            <div class="desc prod-stock"><p class="desctxt"></p>In Stock</div>
+            <div class="desc prod-price"><p class="desctxt"></p>$250.00</div>
+            <div class="desc prod-desc"><p class="desctxt">Description: Heated side mirror
+              of Ford F-150, OEM part bought from factory</p></div>
+            <div class="desc prod-dim"><p class="desctxt">Dimensions: 23 * 23 *12 (in)</p></div>
+            <div class="desc prod-weight"><p class="desctxt">Weight: 43Lbs</p></div>
+            <div class="desc prod-type"><p class="desctxt">Type: Side Mirrors</p></div>
+            <div class="desc prod-category"><p class="desctxt">Category: Doors and Handles</p></div>
+          </div>
+          <div class="prod-actions">
+            <button class="act-btn buy-btn" type="button"><p id="buy_p">Buy</p>
+               <img class="buy" id="arrow" src="/right-circle.svg" alt="buy button"/></button>
+            <button class="act-btn crt-btn" type="button"><p>Add to cart</p><img id="cart" src="/cart.svg" alt="add to cart btn"/></button>
+          </div><!-- container that has actions of prod btns -->
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
 
       <footer class="footer">
         <div class="footerContent">
