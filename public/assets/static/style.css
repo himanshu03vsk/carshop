@@ -86,7 +86,10 @@
 
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .footerLinks button:hover {
     color: #858989;
