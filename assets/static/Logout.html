@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login_out.css">
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">CarShop</a>
+        </div>
+        <div>
+          <ul class="navLinks">
+            <li><a href="/">Home</a></li>
+            <li><a href="/contact">About Us</a></li>
+            
+
+          </ul>
+        </div>
+      </nav>
+
+      <div class="logout-container">
+        <h2>You Have Been Logged Out</h2>
+        <p>Thank you for visiting!</p>
+        <p>You have successfully logged out of your account.</p>
+        <button onclick="window.location.href='/'">Go to Home</button>
+        <button onclick="window.location.href='/Login'">Login Again</button>
+      </div>
+
+
+      
+      <footer class="footer">
+        <div class="footerContent">
+            <p>&copy; 2025 CarShop. Himanshu V, Andrea M.</p>
+            <ul class="footerLinks">
+                <li><button type="button">Contact Us</button></li>
+                <li><button type="button">Get Help</button></li>
+                <!-- {/* <li><a href="#">Terms of Service</a></li> */} -->
+                <!-- {/* <li><a href="/contact">Contact Us</a></li> */} -->
+            </ul>
+  
+        </div>
+      </footer>
+
+
+
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

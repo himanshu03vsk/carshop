@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="/assets/static/style.css">
+  <link rel="stylesheet" href="/assets/static/account.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">CarShop</a>
+      </div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="/">Home</a></li>
+          <li><a href="/contact">About Us</a></li>
+          <li><a href="/logout">Logout</a></li>
+          <li><a href="/prodlist">Product Listings</a></li>
+          <li><a href="/cart">My Cart</a></li>
+          <li><a href="/accsetting">My Account</a></li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="parent">
+
+      <div class="accndadd ">
+
+        <div class="perinfo card" id="ainfo">
+          <p id="fname">John</p>
+          <p id="lname">Doe</p>
+          <p id="email">johndoe@youremail.com</p>
+          <button id="edit-btn" type="button">Edit Profile</button>
+        </div>
+
+        <div class="perinfo card" id="addinfo">
+          <div class="address-header">
+            <p id="address-label">Address</p>
+            <button id="add-address" type="button">Add new +</button>
+          </div>
+        
+          <div class="acards cards">
+            <div class="acard">
+              <p class="addressline">400 Spaniolo Dr</p>
+              <p class="addressline">Apt 45</p>
+              <p class="addressline">Texas</p>
+              <p class="addressline">United States</p></div>
+          </div>
+
+          <div class="acard">
+            <p class="addressline">34 Nevada Dr</p>
+            <p class="addressline">Apt 5</p>
+            <p class="addressline">Texas</p>
+            <p class="addressline">United States</p>
+          </div>
+          
+        
+        </div>
+
+        </div>
+
+      <div id="pinfo" class="pinfo card">
+        <div class="payment-header"><p id="payment-label">Payment</p>
+        <button id="add-payment" type="button">Add new +</button>
+      </div>
+        <div class="payment-container">
+
+
+
+          <div class="card-item">
+            <div class="card-actions">
+              <img class="icons" src="/edit.svg" alt="edit">
+              <img class="icons" src="/delete.svg" alt="edit">
+
+            </div>
+            <div class="card-info">
+              <p class="card-info">XXXXXXXXXXXX9565</p>
+              <p class="card-info">Expires: 09/27</p>
+              <p class="card-info">Type: MasterCard</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-actions">
+              <img class="icons" src="/edit.svg" alt="edit">
+              <img class="icons" src="/delete.svg" alt="edit">
+
+            </div>
+            <div class="card-info">
+              <p class="card-info">XXXXXXXXXXXX3456</p>
+              <p class="card-info">Expires: 06/26</p>
+              <p class="card-info">Type: Visa</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-actions">
+              <img class="icons" src="/edit.svg" alt="edit">
+              <img class="icons" src="/delete.svg" alt="edit">
+
+            </div>
+            <div class="card-info">
+              <p class="card-info">XXXXXXXXXXXX4632</p>
+              <p class="card-info">Expires: 07/26</p>
+              <p class="card-info">Type: Visa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footerContent">
+        <p>&copy; 2025 CarShop. Himanshu V, Andrea M.</p>
+        <ul class="footerLinks">
+          <li><button type="button">Contact Us</button></li>
+          <li><button type="button">Get Help</button></li>
+          <!-- {/* <li><a href="#">Terms of Service</a></li> */} -->
+          <!-- {/* <li><a href="/contact">Contact Us</a></li> */} -->
+        </ul>
+
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

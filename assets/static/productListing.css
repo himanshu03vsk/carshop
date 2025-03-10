@@ -1,0 +1,130 @@
+/* Team Details */
+/* Vishwakarma, Himanshu | Marquez, Andrea */
+/* 1002240465 | 1001515535 */
+
+
+.title{
+    width: 95%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-content{
+    width: 75%;
+    height: 50%;
+    display: flex;
+    align-self: center;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #888;
+    border-radius: 8px;
+}
+.car-search {
+    width: 75%;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #888;
+}
+
+.car-search input[type=submit]{
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-search .form-row {
+    margin: 15px;
+    display: flex;
+    align-items: right;
+}
+
+.form-row input[type="text"] {
+    padding: 8px;
+    width: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.car-search input[type="submit"]:hover {
+    background-color: #777;
+}
+  
+.carpart-list {
+    width: 20rem; 
+    height: 30rem; 
+    overflow-y: auto; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    background-color: #555; 
+    margin: 20px;
+}
+  
+.carpart-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.carpartS-list li {
+    padding: 0.3125rem;
+    border-bottom: 0.0625rem solid #ddd; 
+}
+
+.parts-display{
+  width: 100%;
+  margin-left: 30px;
+}
+
+.part {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.part-description{
+  width: 70%;
+  justify-self: end;
+}
+
+img{
+  margin-right: 50px;
+}
+
+button{
+  padding: 10px;
+  height: 90%;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px; 
+}
+
+.product-price{
+  display: flex;
+  justify-self: end;
+  align-items: center;
+}
+
+.product-price p{
+  font-size: 20px;
+}
+
+.part a{
+  font-size: 25px;
+  font-weight: bold;
+}

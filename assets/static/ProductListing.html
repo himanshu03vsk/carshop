@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productListing.css">
+
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">CarShop</a>
+        </div>
+        <div>
+          <ul class="navLinks">
+            <li><a href="/">Home</a></li>
+            <li><a href="/contact">About Us</a></li>
+            <li><a href="/logout">Logout</a></li>
+            <li><a href="/prodlist">Product Listings</a></li>
+            <li><a href="/cart">My Cart</a></li>
+            <li><a href="/accsetting">My Account</a></li>
+            
+
+          </ul>
+        </div>
+      </nav>
+
+
+      <div>
+        <div class="title">
+          <h2>Find the products you need with a simple search.</h2>
+        </div>
+        
+        <div class="car-search">
+          <form method="post">
+            <div class="form-row">
+                <input id="year" type="text" name="year" placeholder="Enter year">
+            </div>
+    
+            <div class="form-row">
+                <input id="make" type="text" name="make" placeholder="Enter make">
+            </div>
+    
+            <div class="form-row">
+                <input id="model" type="text" name="model" placeholder="Enter model">
+            </div>
+    
+            <div class="form-row">
+                <input id="type" type="text" name="type" placeholder="Enter type">
+            </div>
+    
+            <div class="form-row">
+              <input type="submit" value="Search">
+            </div>
+        </form>
+        </div>
+        <div class = "bottom-content">
+          <div class="carpart-list">
+            <ul>
+              <li>Air Filter</li>
+              <li>Alternator</li>
+              <li>Battery</li>
+              <li>Blower Motor</li>
+              <li>Brakes</li>
+              <li>Cabin Air Filter</li>
+              <li>Clutch</li>
+              <li>Crankshaft</li>
+              <li>Engine</li>
+              <li>Exhaust System</li>
+              <li>Fuel Pump</li>
+              <li>Fuel Tank</li>
+              <li>Headlights</li>
+              <li>Hoses</li>
+              <li>Ignition Coil</li>
+              <li>Oil Filter</li>
+              <li>Power Steering Pump</li>
+              <li>Radiator</li>
+              <li>Shock Absorbers</li>
+              <li>Starter Motor</li>
+              <li>Suspension</li>
+              <li>Taillights</li>
+              <li>Timing Belt</li>
+              <li>Timing Chain</li>
+              <li>Transmission</li>
+              <li>Turbocharger</li>
+              <li>Valve Lifters</li>
+              <li>Wheel Bearings</li>
+              <li>Windshield Wipers</li>
+            </ul>
+          </div>
+
+          <div class="parts-display">
+             <div class="part">
+              <img src="/assets/images/CadEscLig.jpg" alt="some image here" />
+              <div class="part-description">
+                <a href="/proddetail">Cadillac Escalade2002-2006 Driver Fog Light</a>
+                
+                <div class="product-price">
+                  <p>$150.00</p>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+              </div>
+              
+
+             </div>
+             <div class="part">
+              <img src="/assets/images/BMW3SWinReg.jpg" alt="some image here" />
+              <div class="part-description">
+                <a href="/proddetail">BMW 3 Series 2006-2012 Driver Rear Window Regulator</a>
+                <br>
+                <div class="product-price">
+                  <p>$150.00</p>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+              </div></div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <div class="footerContent">
+            <p>&copy; 2025 CarShop. Himanshu V, Andrea M.</p>
+            <ul class="footerLinks">
+                <li><button type="button">Contact Us</button></li>
+                <li><button type="button">Get Help</button></li>
+                <!-- {/* <li><a href="#">Terms of Service</a></li> */} -->
+                <!-- {/* <li><a href="/contact">Contact Us</a></li> */} -->
+            </ul>
+  
+        </div>
+    </footer>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
