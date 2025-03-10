@@ -42,25 +42,6 @@ CarShop/
 - **src/index.jsx**: The entry point of the application.
 - **index.html**: The main HTML file.
 
-## Getting Started
-
-To get started with the project, follow these steps:
-
-1. **Clone the repository**:
-    ```sh
-    git clone <repository-url>
-    ```
-
-2. **Install dependencies**:
-    ```sh
-    cd CarShop
-    npm install
-    ```
-
-3. **Run the application**:
-    ```sh
-    vite run
-    ```
 
 
 
