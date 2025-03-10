@@ -1,3 +1,8 @@
+/* Team Details */
+/* Vishwakarma, Himanshu | Marquez, Andrea */
+/* 1002240465 | 1001515535 */
+
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -42,7 +47,8 @@
 }
 
 .navLinks a:hover {
-    color: #858989; /* change the color according to requirement */
+    color: #858989;
+    /* change the color according to requirement */
 }
 
 
@@ -86,21 +92,21 @@
 
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 .footerLinks button:hover {
     color: #858989;
-  }
-  
+}
 
-  
-  /* Responsive Design */
-  @media (max-width: 600px) {
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
     .footerLinks {
-      flex-direction: column;
-      gap: 5px;
+        flex-direction: column;
+        gap: 5px;
     }
-  }
+}

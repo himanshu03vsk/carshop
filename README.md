@@ -1,12 +1,67 @@
-# React + Vite
+# CarShop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the CarShop project! This README file will guide you through the project structure and provide essential information to get you started.
 
-Currently, two official plugins are available:
+### Authors
+1. **Vishwakarma, Himanshu 1002240465**
+2. **Marquez, Andrez 1001515537**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## Expanding the ESLint configuration
+```
+CarShop/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── ...
+├── public/
+│   ├── index.html
+│   └── assets/
+|   └── ...
+├── package.json
+├── README.md
+└── index.html
+|__ ...  
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### Understanding of the implementation of React with the Static Pages in accordance with Phase 2 Guidelines
+
+- The only part where our team has implemented react is to setup the routes, it is implemented in the app.jsx files.
+- The **src/pages** contains the code that implements the functionality that redirects to our static html files
+- The **public/assests/static** has all the static html and corresponding css files.
+
+
+
+
+### Files
+
+- **src/App.jsx**: The main application component.
+- **src/index.jsx**: The entry point of the application.
+- **index.html**: The main HTML file.
+
+## Getting Started
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository**:
+    ```sh
+    git clone <repository-url>
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    cd CarShop
+    npm install
+    ```
+
+3. **Run the application**:
+    ```sh
+    vite run
+    ```
+
+
+
+

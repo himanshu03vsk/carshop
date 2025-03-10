@@ -1,3 +1,9 @@
+/* Team Details */
+/* Vishwakarma, Himanshu | Marquez, Andrea */
+/* 1002240465 | 1001515535 */
+
+
+
 #checkout-header, #customer-info-header, #address-info-header
 , #payment-info-header, #cart-header {
     text-align: center;
@@ -19,9 +25,10 @@
     /* text-align: center; */
     padding: 5px 10px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    width: 400px;
+    /* width: 400px; */
+    /* align-self: center; */
 
 }
 
@@ -29,6 +36,7 @@
     width: 100px;
     /* margin-right: 5rem; */
     /* text-align: left; */
+    /* align-self: center; */
 
 }
 
@@ -203,7 +211,6 @@ option {
 img {
     max-width: 50px;
     align-self: center;
-
 }
 
 
