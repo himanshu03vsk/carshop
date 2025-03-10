@@ -1,0 +1,210 @@
+#checkout-header, #customer-info-header, #address-info-header
+, #payment-info-header, #cart-header {
+    text-align: center;
+}
+
+.master-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-payment-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.deets {
+    /* text-align: center; */
+    padding: 5px 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 400px;
+
+}
+
+.labels {
+    width: 100px;
+    /* margin-right: 5rem; */
+    /* text-align: left; */
+
+}
+
+.labels-card {
+    width: 150px;
+    /* margin-right: 5rem; */
+    /* text-align: left; */
+    
+}
+
+.labels-card-sens {
+    width: 50px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.payment {
+    flex:1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+
+select {
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    background-color: #333;
+}
+
+option {
+    padding: 10px;
+    background-color: #333;
+}
+
+.select-saved-card, .new-card {
+    /* justi/fy-items: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    margin: 5px auto;
+
+}
+
+
+#or {
+    text-align: center;
+}
+
+#card-selector {
+    justify-content: center;
+}
+
+
+.card-cvv-exp {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+#card-cvv {
+    width: 40px;
+}
+
+#card-exp {
+    width: 130px;
+}
+
+
+/* Ensure cart-items container is a grid */
+.cart-items {
+    display: grid;  /* Activate CSS Grid */
+    grid-template-rows: 1fr 1fr 1fr;  /* Create 3 equal rows */
+    gap: 10px;  /* Space between grid items */
+    padding: 10px;
+    border:  solid #ccc;
+    margin: 5px 0;
+
+  }
+  
+  /* Each cart-item will automatically be a grid item inside the .cart-items grid */
+  .cart-item {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px 100px 100px;  /* Define 5 columns (image, name, quantity, price, remove button) */
+    gap: 10px;
+    padding: 10px;
+    /* border:  solid #ccc; */
+    border-radius: 5px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .cart-total {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: flex-end;
+    /* width: 100px; */
+    /* margin-right: 5px; */
+    /* padding-left: 50px; */
+  }
+
+
+.subtotal {
+    margin-right:10px;
+}
+
+.sbprice {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+  /* Style for product image */
+  .product-image {
+    width: 100%;  /* Ensure the image fills its grid cell */
+    object-fit: cover;  /* Maintain aspect ratio */
+  }
+  
+  /* Style for product name */
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+
+  }
+  
+  /* Style for quantity and price */
+  .quantity,
+  .price {
+    font-size: 14px;
+    align-self: center;
+  }
+  
+  /* Remove button styles */
+  .remove-btn {
+    background-color: #999;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+
+  .checkout-btn {
+    background-color: #999;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 5px;
+    align-self: flex-end;
+  }
+  
+  .remove-btn:hover, .checkout-btn:hover {
+    background-color: #7a7878;
+  }
+
+img {
+    max-width: 50px;
+    align-self: center;
+
+}
+
+
+  

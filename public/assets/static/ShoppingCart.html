@@ -1,49 +1,166 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="style.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
 
-      <nav class="navbar">
-        <div class="logo">
-          <a href="#">CarShop</a>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root">
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">CarShop</a>
+      </div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="/">Home</a></li>
+          <li><a href="/contact">About Us</a></li>
+          <li><a href="/logout">Logout</a></li>
+          <li><a href="/prodlist">Product Listings</a></li>
+          <li><a href="/cart">My Cart</a></li>
+          <li><a href="/accsetting">My Account</a></li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+    <h2 id="checkout-header">Checkout</h2>
+
+    <div class="master-container">
+
+      <div class="info-payment-container">
+        
+        <div class="info">
+          <div class="customer-info">
+            <h3 id="customer-info-header">Customer Info</h3>
+            <!-- <form action="/" > -->
+            <div class="deets fname"><label class="labels" for="fname">First Name: </label> <input id="fname" type="text" /></div>
+            <div class="lname deets"><label class="labels" for="lname">Last Name: </label> <input id="lname" type="text" /></div>
+            <div class="email deets"><label class="labels" for="email">Email: </label> <input id="email" type="email" /></div>
+          <!-- </form> -->
+          </div>
+
+          <div class="shipping-info">
+            <h3 id="address-info-header">Address Info</h3>
+
+            <div class="deets address1"><label class="labels" for="a-line1">Line 1: </label> <input id="a-line1" type="text" /></div>
+            <div class="address2 deets"><label class="labels" for="a-line2">Line 2: </label> <input id="a-line2" type="text" /></div>
+            <div class="phone deets"><label class="labels" for="pnumber">Phone: </label> <input id="pnumber" type="text" /></div>
+            <div class="city deets"><label class="labels" for="city">City: </label> <input id="a-line1" type="text" /></div>
+            <div class="state deets"><label class="labels" for="state">State: </label> <input id="state" type="text" /></div>
+
+          </div>
+
+
         </div>
-        <div>
-          <ul class="navLinks">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact">About Us</a></li>
-            <li><a href="/logout">Logout</a></li>
-            <li><a href="/prodlist">Product Listings</a></li>
-            <li><a href="/cart">My Cart</a></li>
-            <li><a href="/accsetting">My Account</a></li>
-            
 
-          </ul>
-        </div>
-      </nav>
+        <div class="payment">
+          <h3 id="payment-info-header">Payment Info</h3>
+          
+          <div class="select-saved-card">
+            <label for="saved-cards" id='card-label' class="labels">Pick from a saved card: </label>
+            <select name="card-selector" id="card-selector">
+              <option value="1234">Card XXXX1234</option>
+              <option selected value="0">select a card</option>
 
-      <footer class="footer">
-        <div class="footerContent">
-            <p>&copy; 2025 CarShop. Himanshu V, Andrea M.</p>
-            <ul class="footerLinks">
-                <li><button type="button">Contact Us</button></li>
-                <li><button type="button">Get Help</button></li>
-                <!-- {/* <li><a href="#">Terms of Service</a></li> */} -->
-                <!-- {/* <li><a href="/contact">Contact Us</a></li> */} -->
-            </ul>
-  
+              <option value="4354">Card XXXX4354</option>
+            </select>
+          </div>
+
+          <p id="or">OR</p>
+          <div class="new-card">
+            <div class="card-no deets"><label class="labels-card" for="card-num">Card Number: </label> <input id="card-num" type="text" /></div>
+            <div class="card-name deets"><label class="labels-card" for="card-name">Name on card: </label> <input id="card-name" type="text" /></div>
+            <div class="card-cvv-exp deets">
+              <label class="labels-card-sens" for="card-cvv">CVV: </label> <input id="card-cvv" type="password" maxlength="3" />
+              <label class="labels-card-sens" for="card-exp">Expiry: </label> <input id="card-exp" type="month" />
+          </div>
         </div>
-    </footer>
+
+
+
+
+          
+
+
+        </div>
+
+
+      </div>
+      <h2 id="cart-header">Cart Items</h2>
+      <div class="cart-items">
+
+        <div class="cart-item">
+          <div class="head image-head">Item</div>
+          <div class="head product-name-head">Product Name</div>
+          <div class="head quantity-head">Quantity</div>
+          <div class="head price-head">Price</div>
+          <div class="head act-head">Action</div>
+      </div>
+
+        <div class="cart-item">
+          <img src="/assets/images/BMW3SWinReg.jpg" alt="Product Image" class="product-image">
+
+            <div class="product-name">BMW 3 Series 2006-2012 Driver Rear Window Regulator</div>
+            <div class="quantity">1</div>
+            <div class="price">$100</div>
+            <button class="remove-btn">Remove</button>
+        </div>
+    
+        <div class="cart-item">
+          <img src="/assets/images/CadEscLig.jpg" alt="Product Image" class="product-image">
+
+            <div class="product-name">Cadillac Escalade2002-2006 Driver Fog Light</div>
+            <div class="quantity">2</div>
+            <div class="price">$200</div>
+            <button class="remove-btn">Remove</button>
+        </div>
+    
+        <div class="cart-item">
+            <img src="/assets/images/img1.jpg" alt="Product Image" class="product-image">
+            <div class="product-name">Ford F-150 Side Mirror</div>
+            <div class="quantity">1</div>
+            <div class="price">$150</div>
+            <button class="remove-btn">Remove</button>
+        </div>
+
+        <div class="cart-total">
+          
+          <div class="subtotal">Subtotal: </div>
+          <div class="sbprice">$450</div>
+
+      </div>
+
+    </div>
+    <button class="checkout-btn">Complete Purchase</button>
+
+    
     </div>
 
+    <footer class="footer">
+      <div class="footerContent">
+        <p>&copy; 2025 CarShop. Himanshu V, Andrea M.</p>
+        <ul class="footerLinks">
+          <li><button type="button">Contact Us</button></li>
+          <li><button type="button">Get Help</button></li>
+          <!-- {/* <li><a href="#">Terms of Service</a></li> */} -->
+          <!-- {/* <li><a href="/contact">Contact Us</a></li> */} -->
+        </ul>
 
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+      </div>
+    </footer>
+  </div>
+
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
