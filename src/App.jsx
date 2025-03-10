@@ -62,7 +62,7 @@ import Logout from './pages/Logout';
 import ProductDetail from './pages/ProductDetail';
 import ProductListing from './pages/ProductListing';
 import ShoppingCart from './pages/ShoppingCart';
-import AccountRegestration from './pages/AccountRegestration';
+import AccountRegistration from './pages/AccountRegistration';
 
 function App() {
   return (
@@ -77,7 +77,7 @@ function App() {
         <Route path='/proddetail' element={<ProductDetail />} />
         <Route path='/cart' element={<ShoppingCart />} />
         <Route path='/accsetting' element={<AccountSetting />} />
-        <Route path='/accregestration' element={<AccountRegestration />} />
+        <Route path='/accregistration' element={<AccountRegistration />} />
       </Routes>
     </Router>
   );

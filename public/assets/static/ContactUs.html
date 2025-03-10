@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Vite + React</title>
   </head>
   <body>
@@ -27,6 +28,47 @@
         </div>
       </nav>
 
+      <div class="main">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <h3>We're here to help</h3>
+       
+          <h3>Phone Number</h3>
+          <h4>(817)xxx-xxxx</h4>
+
+          <h3>E-Mail</h3>
+          <h4>contact@carshop.com</h4>
+
+          <h3>Address</h3>
+          <h4>416 Yates ST, Arlington, TX 76010</h4>
+
+        </div>
+
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.265206302121!2d-97.11680912340181!3d32.732147886276074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7d72c8efcf39%3A0x1ecc9af182997c37!2sNedderman%20Hall%20(NH)!5e0!3m2!1sen!2sus!4v1741538102742!5m2!1sen!2sus" 
+            width="600" 
+            height="450" 
+            style="border:0;"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+
+        </div>
+
+      </div>
+
+      <div class="contact-form">
+        <h3>Send us a Message</h3>
+        <form action="/submit-contact" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="phone" id="phone" name="phone" placeholder="Your Phone Number" required>
+            <input type="text" id="subject" name="subject" placeholder="Message Subject" required>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
       <footer class="footer">
         <div class="footerContent">
