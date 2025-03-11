@@ -2,6 +2,10 @@
 /* Vishwakarma, Himanshu | Marquez, Andrea */
 /* 1002240465 | 1001515535 */
 
+/* fonts used */
+/* Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+/* Colors: (hex form): #333; #000, #fff, #808080, #4e4e4e*/
+
 
 
 .parent {
@@ -103,7 +107,7 @@
 
 .acard {
     margin: 5px 0;
-    background-color: gray;
+    background-color: #808080;
     border-radius: 4px;
     /* max-width: 400px; */
 }
@@ -112,7 +116,7 @@
 .card-item {
     display: flex;
     flex-direction: row;
-    background-color: gray;
+    background-color: #808080;
     border-radius: 4px;
     margin: 5px 0;
     padding: 5px 0;
@@ -143,7 +147,7 @@
 .payment-header {
     margin-top: 5px;
     display: flex;
-    background-color: rgb(78, 78, 78);
+    background-color: #4e4e4e;
     border-radius: 4px;
 
 }

@@ -1,6 +1,7 @@
 # CarShop
 
 Welcome to the CarShop project! This README file will guide you through the project structure and provide essential information to get you started.
+- Github link : https://github.com/himanshu03vsk/carshop
 
 ### Authors
 1. **Vishwakarma, Himanshu 1002240465**
@@ -32,12 +33,15 @@ CarShop/
 ```
 
 
+
+
 ### Understanding of the implementation of React with the Static Pages in accordance with Phase 2 Guidelines
 
 - The only part where our team has implemented react is to setup the routes, it is implemented in the app.jsx files.
 - The **src/pages** contains the code that implements the functionality that redirects to our static html files
 - The **public/assests/static** has all the static html and corresponding css files.
-
+- Names are added in the css files as comments on the first 3 lines
+- Fonts used and colors are also added as comments
 
 
 
