@@ -6,6 +6,11 @@ Welcome to the CarShop project! This README file will guide you through the proj
 1. **Vishwakarma, Himanshu 1002240465**
 2. **Marquez, Andrez 1001515537**
 
+
+### Hosted on
+**Project is live on https://axm5538.uta.cloud/**
+*Suggestion: Please open the above link in incognito tab if website doesn't behave properly*
+
 ## Project Structure
 
 ```
@@ -14,7 +19,7 @@ CarShop/
 │   ├── components/
 │   ├── pages/
 │   ├── App.jsx
-│   ├── index.jsx
+│   ├── home.html
 │   └── ...
 ├── public/
 │   ├── index.html
